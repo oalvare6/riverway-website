@@ -1,0 +1,27 @@
+export default function Services() {
+  return (
+    <section className="max-w-5xl mx-auto py-20 px-6">
+      <h1 className="text-4xl font-bold text-primary mb-8 text-center">
+        Our Services
+      </h1>
+      <ul className="space-y-8 text-lg leading-relaxed">
+        <li>
+          <span className="font-semibold text-primary">Flatbed Dispatching:</span>{" "}
+          We coordinate efficient routes, manage rate confirmations, and keep your fleet moving.
+        </li>
+        <li>
+          <span className="font-semibold text-primary">Load Management:</span>{" "}
+          Our team handles documentation, timing, and communication from pickup to delivery.
+        </li>
+        <li>
+          <span className="font-semibold text-primary">Automation Support:</span>{" "}
+          Integration of Gmail → Drive → WhatsApp to minimize errors and paperwork.
+        </li>
+        <li>
+          <span className="font-semibold text-primary">24/7 Tracking:</span>{" "}
+          Real-time driver updates, proactive issue resolution, and transparent broker communication.
+        </li>
+      </ul>
+    </section>
+  );
+}

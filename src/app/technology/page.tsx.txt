@@ -1,0 +1,16 @@
+export default function Technology() {
+  return (
+    <section className="max-w-5xl mx-auto py-20 px-6">
+      <h1 className="text-4xl font-bold text-primary mb-8 text-center">
+        Our Technology
+      </h1>
+      <p className="text-lg leading-relaxed text-gray-700">
+        Riverway uses custom-built automation systems that connect Gmail, Google Drive, 
+        and WhatsApp Business Cloud API to streamline every document process.
+        <br /><br />
+        Rate Confirmations and Bills of Lading are automatically renamed, paired, 
+        and stored in daily folders, reducing human error and saving valuable time.
+      </p>
+    </section>
+  );
+}
